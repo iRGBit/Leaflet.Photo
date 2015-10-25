@@ -51,3 +51,10 @@ Simply edit the getphotos.php file:
 	
 	//The directory (relative to this file) that holds the thumbnails, they have to have the same name as the photos
 	$thumb_dir = "Photos_Thumbnail";
+	
+Examples:
+=============
+
+[Withouy thumbnail images.] (http://maps.gisforthought.com/local_file_example/index.html)
+
+[With thumbnails.] (http://maps.gisforthought.com/local_file_example/index_thumb.html)
