@@ -55,6 +55,6 @@ Simply edit the getphotos.php file:
 Examples:
 =============
 
-[Withouy thumbnail images.] (http://maps.gisforthought.com/local_file_example/index.html)
+[Without thumbnail images.] (http://maps.gisforthought.com/local_file_example/index.html)
 
 [With thumbnails.] (http://maps.gisforthought.com/local_file_example/index_thumb.html)
