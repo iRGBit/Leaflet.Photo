@@ -31,20 +31,21 @@ The thumbnails should be at least 40px by 40px, but can be larger. Larger images
 
 Then you need to edit the index .html lines 76-78:
 
-//If you have thumbnails, switch the comments on the following lines.
-thumbnail: images[i].filename
-//thumbnail: images[i].thumbnail
+	//If you have thumbnails, switch the comments on the following lines.
+	thumbnail: images[i].filename
+	//thumbnail: images[i].thumbnail
 
 TO:
 
-//If you have thumbnails, switch the comments on the following lines.
-//thumbnail: images[i].filename
-thumbnail: images[i].thumbnail
+	//If you have thumbnails, switch the comments on the following lines.
+	//thumbnail: images[i].filename
+	thumbnail: images[i].thumbnail
 
 What if my photos are in a different folder?
 =============
 
 Simply edit the getphotos.php file:
+
     //The directory (relative to this file) that holds the images
     $dir = "Photos";
 	
