@@ -23,7 +23,7 @@
 					//Check photos are on the earth
 					if($exif["GPSLatitude"][0]<90 AND $exif["GPSLongitude"][0]<180){
 						//Check photos are not on NULL island, remove if they should be.
-						if($exif["GPSLatitude"][0]!=0 AND $exif["GPSLatitude"][1]!=0 AND $exif["GPSLongitude"][0]!=0 AND $exif["GPSLongitude"][1]!=0){
+						if($exif["GPSLatitude"][0]!=0 OR $exif["GPSLatitude"][1]!=0 OR $exif["GPSLongitude"][0]!=0 OR $exif["GPSLongitude"][1]!=0){
 							//Check if there is exif infor
 							$LatM = 1; $LongM = 1;
 							if($exif["GPSLatitudeRef"] == 'S'){
