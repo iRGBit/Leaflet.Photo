@@ -20,7 +20,7 @@
 		
 		<script>
 			//Create a map
-			var map = L.map('map', { maxZoom: 18});
+			var map = L.map('map', { maxZoom: 17});
 			
 			//Add Background Mapping
 			L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
@@ -29,7 +29,7 @@
 		
 			//Create the photolayer
 			var photoLayer = L.photo.cluster({ spiderfyDistanceMultiplier: 1.2 }).on('click', function (evt) {
-				evt.layer.bindPopup(L.Util.template('<img src="{url}" height="100%" width="100%"/>', evt.layer.photo), {
+				evt.layer.bindPopup(L.Util.template('<img src="{url}" height="auto" width="100%"/>', evt.layer.photo), {
 					className: 'leaflet-popup-photo',
 					minWidth: 400
 				}).openPopup();
