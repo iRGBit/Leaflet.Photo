@@ -9,7 +9,7 @@ Added:
 
 local_file_example
 
-Tho original example provided showed how leaflet photo could be used with a third party photo hosting sollution with an API.
+The original example provided showed how leaflet photo could be used with a third party photo hosting sollution with an API.
 
 This allows for a fully self hosted sollution.
 
